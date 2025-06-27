@@ -1,0 +1,30 @@
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+}
+pre{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
